@@ -6,7 +6,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LogisticRegression
-df=pd.read_csv(r"/content/drive/MyDrive/wbc.csv")
+df=pd.read_csv(r"./wbc.csv")
 print(df)
 print(df.columns)
 df.drop(columns=["id",'Unnamed: 32'],inplace=True)
